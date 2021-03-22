@@ -149,12 +149,8 @@ def gooey():
                                             '''Print the x and y coordinates for all four corners of a cell.'''
                                             # print((x[0][xn], y[0][yn]), (x[1][xn], y[1][yn]))
                                             '''Create a cell at current position.'''
-                                            if pygame.Rect.contains(new_grid[0].column_array[xn][yn],
-                                                                    new_grid[0].column_array[xn][yn]):
-                                                pass
-                                            else:
-                                                window.blit(graph_white, (x[0][xn], y[0][yn]),
-                                                            new_grid[0].column_array[xn][yn])
+                                            window.blit(graph_white, (x[0][xn], y[0][yn]),
+                                                        new_grid[0].column_array[xn][yn])
                                             pass
                                         pass
                                     pass
