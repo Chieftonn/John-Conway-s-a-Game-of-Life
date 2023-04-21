@@ -130,12 +130,6 @@ def gooey():
                                             '''Create a cell at current position.'''
                                             window.blit(graph_black, (x[0][xn], y[0][yn]),
                                                         new_grid[0].column_array[xn][yn])
-                                            pass
-                                        pass
-                                    pass
-                                pass
-                            pass
-                        pass
                     break
                 while mouse_button_pressed[2]:
                     '''Check each cell.'''
@@ -151,12 +145,6 @@ def gooey():
                                             '''Create a cell at current position.'''
                                             window.blit(graph_white, (x[0][xn], y[0][yn]),
                                                         new_grid[0].column_array[xn][yn])
-                                            pass
-                                        pass
-                                    pass
-                                pass
-                            pass
-                        pass
                     break
             gui_manager.process_events(event)
         gui_manager.update(delta_time)
